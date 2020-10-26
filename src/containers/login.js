@@ -302,7 +302,6 @@ function Login(props) {
               buttonText="Login With Google                                                    "
               onSuccess={responseGoogle}
               onFailure={responseGoogleFail}
-              cookiePolicy="single_host_origin"
             ></GoogleLogin>
           </div>
         </form>
